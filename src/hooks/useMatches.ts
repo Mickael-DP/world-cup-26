@@ -5,7 +5,7 @@ export const useMatches = () => {
   const [matches, setMatches] = useState<MatchesResponse | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
-  const urlAPI = "/api/v4/competitions/WC/matches";
+  const urlAPI = "/api/matchs";
 
   useEffect(() => {
     const fetchMatches = async () => {

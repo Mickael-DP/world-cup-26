@@ -7,7 +7,7 @@ export const useStandings = () => {
     const [standings, setStandings] = useState<StandingsResponse | null>(null);
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
-    const urlAPI = "/api/v4/competitions/WC/standings";
+    const urlAPI = "/api/standing";
     
     useEffect(() => {
         const fetchStandings = async () => {
