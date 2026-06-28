@@ -50,7 +50,7 @@ const GroupTable = ({ table }: GroupTableProps) => {
               Draw
             </Table.Column>
             <Table.Column className="text-[10px] font-bold tracking-widest uppercase text-zinc-600 text-center">
-              Loose
+              Lost
             </Table.Column>
             <Table.Column className="text-[10px] font-bold tracking-widest uppercase text-zinc-600 text-center">
               Pts
@@ -74,7 +74,8 @@ const GroupTable = ({ table }: GroupTableProps) => {
                       </Avatar.Fallback>
                     </Avatar>
                     <span className="text-xs font-medium text-zinc-100">
-                      {team.team.name}
+                      <span className="hidden sm:inline">{team.team.name}</span>
+                      <span className="sm:hidden">{team.team.shortName}</span>
                     </span>
                     {team.position <= 2 && (
                       <span className="hidden sm:inline-flex text-[9px] font-bold tracking-wider uppercase text-amber-400/60 bg-amber-400/10 px-1.5 py-0.5 rounded-sm">
