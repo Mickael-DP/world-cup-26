@@ -24,7 +24,7 @@ const navCards = [
 
 const Home = () => {
   return (
-    <main className="min-h-[calc(100vh-3.5rem)] bg-zinc-950 flex flex-col items-center justify-center px-4 relative overflow-hidden">
+    <main className="min-h-[calc(100vh-3.5rem)] bg-zinc-950 flex flex-col items-center justify-center px-4 py-12 relative overflow-hidden">
 
       {/* 2026 background architectural element */}
       <span
