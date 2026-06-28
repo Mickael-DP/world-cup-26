@@ -14,6 +14,12 @@ const navCards = [
     description: "Full match schedule by group",
     tag: "104 matches",
   },
+  {
+    to: "/bracket",
+    label: "Bracket",
+    description: "Knockout stage bracket and results",
+    tag: "32 teams",
+  },
 ];
 
 const Home = () => {

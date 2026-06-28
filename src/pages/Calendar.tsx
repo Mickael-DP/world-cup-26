@@ -1,4 +1,4 @@
-import MatchdayCard from "../components/MatchDayCard";
+import MatchdayCard from "../components/MatchdayCard";
 import { useMatches } from "../hooks/useMatches";
 import type { Match } from "../types/matchs";
 

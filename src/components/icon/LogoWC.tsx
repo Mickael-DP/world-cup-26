@@ -10,7 +10,7 @@ const LogoWC = (props: SVGProps<SVGSVGElement>) => (
     style={{}}
     {...props}
   >
-    <metadata xmlns:fl="https://football-logos.cc/tournaments/fifa-world-cup-2026">
+    <metadata>
       {"dl1_a9b0422afb24fc7b9e82fc84c015b13797f3772165d837e0d858c231f92c6aab"}
     </metadata>
     <defs data-source="https://football-logos.cc">
@@ -23,7 +23,7 @@ const LogoWC = (props: SVGProps<SVGSVGElement>) => (
           width={1}
           height={1}
           preserveAspectRatio="none"
-          style={{ imageRendering: "optimizeSpeed" }}
+          style={{ imageRendering: "pixelated" }}
         />
       </mask>
     </defs>
@@ -89,7 +89,7 @@ const LogoWC = (props: SVGProps<SVGSVGElement>) => (
       height={1}
       mask="url(#b)"
       preserveAspectRatio="none"
-      style={{ imageRendering: "optimizeSpeed" }}
+      style={{ imageRendering: "pixelated" }}
       transform="matrix(92.72516 0 0 227.83227 70.125 37.641)"
       data-source="https://football-logos.cc"
     />
