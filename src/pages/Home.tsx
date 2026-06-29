@@ -4,21 +4,21 @@ import LogoWC from "../components/icon/LogoWC";
 const navCards = [
   {
     to: "/groups",
-    label: "Groups",
-    description: "Standings for all 12 groups",
-    tag: "48 teams",
+    label: "Groupes",
+    description: "Classement des 12 groupes",
+    tag: "48 équipes",
   },
   {
     to: "/calendar",
-    label: "Calendar",
-    description: "Full match schedule by group",
-    tag: "104 matches",
+    label: "Calendrier",
+    description: "Tous les matchs de la phase de groupes",
+    tag: "104 matchs",
   },
   {
     to: "/bracket",
     label: "Bracket",
-    description: "Knockout stage bracket and results",
-    tag: "32 teams",
+    description: "Phase éliminatoire et résultats",
+    tag: "32 équipes",
   },
 ];
 
@@ -40,7 +40,7 @@ const Home = () => {
         <div className="flex items-center gap-2 bg-amber-400/10 border border-amber-400/20 rounded-full px-4 py-1.5">
           <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
           <span className="text-xs font-semibold tracking-widest uppercase text-amber-400">
-            Live Tournament
+            Tournoi en direct
           </span>
         </div>
         <LogoWC className="w-24 h-24" />
@@ -74,7 +74,7 @@ const Home = () => {
             </div>
             <p className="text-sm text-zinc-500 leading-snug">{description}</p>
             <div className="flex items-center gap-1.5 text-xs text-zinc-600 group-hover:text-amber-400/60 transition-colors duration-150">
-              <span>View</span>
+              <span>Voir</span>
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none" className="translate-x-0 group-hover:translate-x-0.5 transition-transform duration-150">
                 <path d="M2 6h8M7 3l3 3-3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
