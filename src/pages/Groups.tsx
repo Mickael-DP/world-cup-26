@@ -3,9 +3,6 @@ import { useStandings } from "../hooks/useStandings";
 
 function Groups() {
   const { standings, loading, error } = useStandings();
-
-  console.log("test:", standings?.standings[0].group)
-  
   
   return (
     <main className="min-h-[calc(100vh-3.5rem)] bg-zinc-950 px-4 py-8">

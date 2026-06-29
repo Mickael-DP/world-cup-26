@@ -5,7 +5,7 @@ export const useMatches = () => {
   const [matches, setMatches] = useState<MatchesResponse | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
-  const urlAPI = "/api/matchs";
+  const urlAPI = "/api/matches";
 
   useEffect(() => {
     const fetchMatches = async () => {

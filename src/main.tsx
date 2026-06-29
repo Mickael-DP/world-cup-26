@@ -7,6 +7,7 @@ import Layout from "./layout/Layout.tsx";
 import Groups from "./pages/Groups.tsx";
 import Home from "./pages/Home.tsx";
 import Bracket from "./pages/Bracket.tsx";
+import Scorers from "./pages/Scorers.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
@@ -15,6 +16,7 @@ createRoot(document.getElementById("root")!).render(
         <Route path="/" element={<Home />} />
         <Route path="/groups" element={<Groups />} />
         <Route path="/calendar" element={<Calendar />} />
+        <Route path="/scorers" element={<Scorers/>} />
         <Route path="/bracket" element={<Bracket />} />
       </Route>
     </Routes>

@@ -7,7 +7,7 @@ export const useStandings = () => {
     const [standings, setStandings] = useState<StandingsResponse | null>(null);
     const [loading, setLoading] = useState<boolean>(true);
     const [error, setError] = useState<string | null>(null);
-    const urlAPI = "/api/standing";
+    const urlAPI = "/api/standings";
     
     useEffect(() => {
         const fetchStandings = async () => {
