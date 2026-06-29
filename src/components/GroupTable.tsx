@@ -38,19 +38,19 @@ const GroupTable = ({ table }: GroupTableProps) => {
               isRowHeader
               className="text-[10px] font-bold tracking-widest uppercase text-zinc-600"
             >
-              Team
+              équipe
             </Table.Column>
             <Table.Column className="text-[10px] font-bold tracking-widest uppercase text-zinc-600 text-center">
-              Games
+              J
             </Table.Column>
             <Table.Column className="text-[10px] font-bold tracking-widest uppercase text-zinc-600 text-center">
-              Win
+              V
             </Table.Column>
             <Table.Column className="text-[10px] font-bold tracking-widest uppercase text-zinc-600 text-center">
-              Draw
+              N
             </Table.Column>
             <Table.Column className="text-[10px] font-bold tracking-widest uppercase text-zinc-600 text-center">
-              Lost
+              D
             </Table.Column>
             <Table.Column className="text-[10px] font-bold tracking-widest uppercase text-zinc-600 text-center">
               Pts

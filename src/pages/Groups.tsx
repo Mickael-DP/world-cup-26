@@ -18,7 +18,7 @@ function Groups() {
               <div key={standing.group} className="flex flex-col gap-3">
                 <div className="flex items-center gap-3">
                   <span className="text-xs font-semibold tracking-widest uppercase text-amber-400 shrink-0">
-                    {standing.group.replace(/_/g, " ")}
+                    {standing.group.replace("GROUP_", "Groupe ")}
                   </span>
                   <div className="flex-1 h-px bg-zinc-800/60" />
                 </div>
